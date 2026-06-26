@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>とものり｜作品集</title>
+<meta name="description" content="48歳・未経験からアプリ開発に挑戦中。知育アプリ・音楽プレーヤー・AIツールを公開しています。">
+<meta name="theme-color" content="#3a1c5e">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Noto Sans JP', 'Hiragino Sans', 'Meiryo', sans-serif;
+    background: linear-gradient(160deg, #2a1145 0%, #3a1c5e 45%, #4a2c7e 100%);
+    color: #fff;
+    min-height: 100vh;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 0 20px 60px; }
+
+  /* ---- hero ---- */
+  header {
+    text-align: center;
+    padding: 56px 20px 36px;
+  }
+  header .tag {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    background: rgba(255,255,255,0.15);
+    padding: 5px 16px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+  }
+  header h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+    letter-spacing: 0.02em;
+  }
+  header p {
+    font-size: 1rem;
+    color: #e0d4f5;
+    max-width: 460px;
+    margin: 0 auto;
+  }
+
+  /* ---- section title ---- */
+  .sec-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #d9c6ff;
+    margin: 38px 0 18px;
+    padding-left: 12px;
+    border-left: 4px solid #b388ff;
+  }
+
+  /* ---- app cards ---- */
+  .card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 20px;
+    padding: 22px 22px 24px;
+    margin-bottom: 18px;
+    transition: transform 0.18s, background 0.18s, box-shadow 0.18s;
+  }
+  .card:hover, .card:active {
+    transform: translateY(-3px);
+    background: rgba(255,255,255,0.14);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  .card .top { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+  .card .ico { font-size: 2.4rem; line-height: 1; }
+  .card h2 { font-size: 1.25rem; font-weight: 700; }
+  .card .desc { font-size: 0.95rem; color: #e8def8; margin-bottom: 16px; }
+  .card .go {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background: #b388ff;
+    color: #2a1145;
+    padding: 9px 20px;
+    border-radius: 999px;
+  }
+
+  /* ---- footer ---- */
+  footer {
+    text-align: center;
+    margin-top: 46px;
+    font-size: 0.9rem;
+    color: #c8b8e8;
+  }
+  footer a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255,255,255,0.12);
+    padding: 10px 22px;
+    border-radius: 999px;
+    margin-top: 12px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <span class="tag">個人開発 / 作品集</span>
+      <h1>とものり の作品集</h1>
+      <p>48歳・未経験からアプリ開発に挑戦中📱<br>「あったらいいな」を形にして、毎日コツコツ作っています🛠️</p>
+    </header>
+
+    <div class="sec-title">📱 公開中のアプリ</div>
+
+    <a class="card" href="https://tomonori2.github.io/norimono-zukan/" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ico">🚒</span>
+        <h2>はたらくのりもの</h2>
+      </div>
+      <p class="desc">2〜4歳向けの乗り物知育アプリ。高坂先生が読み上げで案内し、AI先生に「なんで？」を質問できます。クイズ＆ずかんモード付き。</p>
+      <span class="go">あそぶ →</span>
+    </a>
+
+    <a class="card" href="https://tomonori2.github.io/kosaka-song/" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ico">🎵</span>
+        <h2>高坂ソング</h2>
+      </div>
+      <p class="desc">AIで作ったオリジナル曲を集めた音楽プレーヤー。回転するジャケットやプレイリストで、スマホでそのまま楽しめます。</p>
+      <span class="go">きく →</span>
+    </a>
+
+    <a class="card" href="https://kosaka-memo.onrender.com" target="_blank" rel="noopener">
+      <div class="top">
+        <span class="ico">🤖</span>
+        <h2>高坂先生のメモAI</h2>
+      </div>
+      <p class="desc">録音した声を文字起こしして、要点を自動でまとめてくれるAIツール。聞き取りや会議のメモづくりを助けます。</p>
+      <span class="go">つかう →</span>
+    </a>
+
+    <footer>
+      作ったものを少しずつ公開しています。<br>
+      <a href="https://x.com/Nishi2ex" target="_blank" rel="noopener">𝕏 @Nishi2ex をフォロー</a>
+    </footer>
+
+  </div>
+</body>
+</html>
