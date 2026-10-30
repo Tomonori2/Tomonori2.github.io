@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Google に「このサイトにはこのページがあります」と知らせる地図。アプリを足したら <url> を1つ足す -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://tomonori2.github.io/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://tomonori2.github.io/nami-doko-zenkoku/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://tomonori2.github.io/kurashi-anzen/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://tomonori2.github.io/okane-meter/</loc></url>
+  <url><loc>https://tomonori2.github.io/dorareko/</loc></url>
+  <url><loc>https://tomonori2.github.io/eigo-kaiwa/</loc></url>
+  <url><loc>https://tomonori2.github.io/moji-camera/</loc></url>
+  <url><loc>https://tomonori2.github.io/seicho-nikki/</loc></url>
+  <url><loc>https://tomonori2.github.io/norimono-zukan/</loc></url>
+  <url><loc>https://tomonori2.github.io/kosaka-song/</loc></url>
+  <url><loc>https://tomonori2.github.io/kosaka-memo/</loc></url>
+</urlset>
